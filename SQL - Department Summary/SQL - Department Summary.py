@@ -46,7 +46,6 @@ try:
     PRIMARY KEY (id)
     ) ENGINE = InnoDB'''
     cursor.execute(create_db_sql_query_department)
-    print('Ok-ded')
     conn.commit()
 
     # Employee table creation
