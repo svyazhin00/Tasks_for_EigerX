@@ -17,7 +17,6 @@ def func_max(x=None, count=1):
                     count += 1
                     return func_max(i, count)
     except:
-
         raise TypeError('Type must be integer!')
 
 print(func_max())
